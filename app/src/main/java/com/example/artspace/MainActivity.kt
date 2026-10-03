@@ -1,5 +1,4 @@
 package com.example.artspace
-
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -38,13 +37,6 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.artspace.ui.theme.ArtSpaceTheme
 
-// Modèle de données pour une œuvre d'art
-data class Artwork(
-    val imageRes: Int,
-    val titleRes: Int,
-    val artistRes: Int,
-    val yearRes: Int
-)
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -63,6 +55,13 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+// Modèle de données pour une œuvre d'art
+data class Artwork(
+    val imageRes: Int,
+    val titleRes: Int,
+    val artistRes: Int,
+    val yearRes: Int
+)
 @Composable
 fun ArtSpaceLayout() {
     val artworkList = listOf(
