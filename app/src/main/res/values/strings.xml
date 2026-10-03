@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Art Space</string>
+    <string name="artwork_title1">Comment voulais-tu que je t\'oublie mon ange bleu</string>
+    <string name="artwork_artist1">François Pagé </string>
+    <string name="artwork_year1">(2023)</string>
+    <string name="artwork_title2">Fleurs dans un vase</string>
+    <string name="artwork_artist2">Auguste Renoir</string>
+    <string name="artwork_year2">(1880)</string>
+    <string name="artwork_title3">Hermès poursuivant Apémosyne</string>
+    <string name="artwork_artist3">François Pagé</string>
+    <string name="artwork_year3">(2024)</string>
+
+
+
+</resources>
